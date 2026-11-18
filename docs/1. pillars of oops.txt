@@ -1,0 +1,70 @@
+OOPS - Object Oriented Programming
+
+Fundamental of everything
+
+Object is a real world entity
+
+A real world entity has 2 things 
+	1. Behaviour (Functionality)
+	2. Properties (state)
+
+
+In OOPS:
+	1. Program is divided in to objects
+	2. Object provides data hiding and gives important to data - (get and set methods) - bind functions in to the data (it has full control)
+	3. Overloading is possible
+	4. Inheritance is possible
+	5. Code reusability is possible
+
+
+Object and Classes
+
+Object has :
+	1. Property or state
+	2. Behaviour or Function
+
+Dog is an object it has:
+	Property : Age, Breed, colour…
+	Behaviour: Bark, Sleep, Bite…
+
+Car is an object it has:
+	Property : colour, Brand…
+	Behaviour: Speed, Brake…
+
+
+ Class is a blue print of an object it's like a skeleton
+To create an object class is required
+From one class we can create multiple objects
+
+
+Eg:
+
+Class student{
+Int age;                     ---------------------------------------|
+                                                                                             => Property (State)
+String address;        ---------------------------------------|
+
+	updateAddress(){     -----------------------------------------|
+	Address = "xyz";                                                               |  =>    Behaviour(Functionality)
+	}                                  ------------------------------------------|
+}
+
+
+Oops: 
+Abstraction
+Polymorphism
+Inheritance
+Encapsulation
+
+Abstraction - it hides internal implementation and shows only essential functions to the user
+Can be achieved through interface and abstract class
+
+
+In teams we only now if we press end call button it will abort the call, we don’t know what happens internally
+
+
+Encapsulation - bundles the data and the functions working on the data into a single unit
+Declare variable of a class as private
+Has public getters and setters to modify/view the variables of data
+
+Adv: loosely coupled code, better access control and security
